@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI as a Catalyst Paris</title>
+    <meta
+      name="description"
+      content="A one-day gathering on healthcare AI with nurses, students, patient advocates, engineers, clinicians and veterans. December 4, 2026 at Université Paris Santé."
+    >
+    <meta property="og:title" content="AI as a Catalyst Paris">
+    <meta
+      property="og:description"
+      content="Two panels, an LLM-athon and a HASTC workshop on who gets to shape healthcare AI. December 4, 2026 at Université Paris Santé."
+    >
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/logo-mit-white.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+  </head>
+  <body>
+    <div class="particle-field" aria-hidden="true">
+      <canvas id="particle-canvas"></canvas>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MIT Critical Data">
+        <img class="brand-logo" src="assets/logo-mit-white.svg" alt="MIT">
+        <span class="brand-text"><span>Critical</span><span>Data</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#program">Program</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#people">Faculty &amp; mentors</a>
+        <a href="#register">Register</a>
+      </nav>
+      <div class="nav-spacer" aria-hidden="true"></div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid">
+        <div class="hero-noise" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-top" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-bottom" aria-hidden="true"></div>
+        <svg class="paris-lineart" viewBox="0 0 760 360" aria-hidden="true">
+          <g class="lineart-soft">
+            <path d="M24 296c80-15 139-10 211 7 70 18 133 15 209-6 83-24 167-18 292 16"></path>
+            <path d="M44 322c78-15 136-10 204 7 70 17 134 13 208-7 88-25 167-16 278 19"></path>
+          </g>
+          <g class="lineart-main">
+            <path d="M60 272V172h112v100M54 172l12-28h100l12 28"></path>
+            <path d="M84 144v-14h10v14M142 144v-16h9v16"></path>
+            <path d="M188 272V160h122v112M182 160l13-30h108l13 30"></path>
+            <path d="M210 160v-13l8-7 8 7v13M241 160v-13l8-7 8 7v13M272 160v-13l8-7 8 7v13"></path>
+            <path d="M326 272V186h82v86M320 186l10-22h74l10 22"></path>
+            <path d="M560 20v24M553 44h14M555 44l-10 86M565 44l10 86M536 130h48"></path>
+            <path d="M540 130q-8 28-16 56M580 130q8 28 16 56M512 186h96M516 195h88"></path>
+            <path d="M520 195q-13 40-26 77M600 195q13 40 26 77M529 272q31-58 62 0"></path>
+            <path d="M422 252h62M426 272q13-18 26 0M454 272q13-18 26 0"></path>
+          </g>
+          <g class="lineart-detail">
+            <path d="M58 200h116M74 188h12m16 0h12m16 0h12m16 0h12M74 222h12m16 0h12m16 0h12m16 0h12M74 248h12m16 0h12m16 0h12m16 0h12"></path>
+            <path d="M186 186h126M202 176h14m18 0h14m18 0h14m18 0h14M202 210h14m18 0h14m18 0h14m18 0h14M202 238h14m18 0h14m18 0h14m18 0h14"></path>
+            <path d="M338 204h14m20 0h14M338 230h14m20 0h14M338 254h14m20 0h14"></path>
+            <path d="M552 64l16 22m0-22l-16 22M548 96l24 26m0-26l-24 26M538 142l44 36m0-36l-44 36"></path>
+            <path d="M424 258h58"></path>
+            <path d="M46 272h666"></path>
+          </g>
+        </svg>
+
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span>MIT Critical Data presents</div>
+          <h1>
+            <span>AI as a</span>
+            <span>Catalyst</span>
+            <em>Paris</em>
+          </h1>
+          <p class="hero-kicker">Reimagining Healthcare Innovation</p>
+          <p class="hero-subtitle">
+            A one-day gathering for the people closest to the consequences of healthcare AI,
+            and the ones best placed to shape it.
+          </p>
+          <div class="hero-meta" aria-label="Event details">
+            <span><i></i>December 4, 2026</span>
+            <span>Université Paris Santé · exact location TBA</span>
+            <strong>10:00 – 16:15</strong>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="#register">
+              <span>Register</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+            <a class="learn-link" href="#about">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 5v14"></path>
+                <path d="m19 12-7 7-7-7"></path>
+              </svg>
+              Learn about the day
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-label">Why we gather</div>
+        <h2>
+          Whether AI helps or harms patients is mostly decided before a model is built.
+        </h2>
+        <div class="split">
+          <p class="lead">
+            It is decided by whoever collects the data and whoever is in the room when the tool
+            is designed. The AI as a Catalyst events start from that observation.
+          </p>
+          <div class="copy-stack">
+            <p>
+              Each one brings together people who rarely share a table (nurses, community
+              college students, patient advocates, engineers, clinicians, veterans) and asks
+              them to work on a problem that matters locally, whether that is nursing practice
+              in Boston or human flourishing grounded in Buddhist practice in Thimphu.
+            </p>
+            <p>
+              AI is the occasion for the gathering more than its subject. Its arrival has made
+              long-standing problems in healthcare and education hard to ignore, and that
+              gives communities an opening to question how their institutions work and whom
+              they serve.
+            </p>
+          </div>
+        </div>
+
+        <div class="host-grid" aria-label="Event facts">
+          <div>
+            <span>Date</span>
+            <strong>Friday, December 4, 2026</strong>
+            <p>10:00 to 16:15, Paris time.</p>
+          </div>
+          <div>
+            <span>Venue</span>
+            <strong>Université Paris Santé</strong>
+            <p>Exact location to be announced.</p>
+          </div>
+          <div>
+            <span>Organized by</span>
+            <strong>MIT Critical Data</strong>
+          </div>
+          <div>
+            <span>Who should come</span>
+            <strong>Anyone affected by health AI</strong>
+            <p>
+              Nurses, students, patient advocates, engineers, clinicians, veterans. No coding
+              required.
+            </p>
+          </div>
+          <div>
+            <span>Part of a series</span>
+            <strong>AI as a Catalyst</strong>
+            <p>
+              Held in cities as different as Manaus and Benguerir, and in settings like
+              community colleges and nursing homes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section theme-section">
+        <div class="section-label">What the day is for</div>
+        <div class="theme-grid">
+          <article>
+            <span>01</span>
+            <h3>Reflect</h3>
+            <p>
+              Look closely at what the current healthcare system rewards, and whom it serves.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Reimagine</h3>
+            <p>
+              Work out with people from other professions what that system could look like
+              instead.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Take it home</h3>
+            <p>
+              Leave reinvigorated, with new collaborators and a project you own.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="program" class="section program">
+        <div class="section-label">The program</div>
+        <div class="program-header">
+          <h2>Two panels, two workshops, and a debrief after each.</h2>
+          <p>
+            All times are Paris time (CET). The exact room at Université Paris Santé will be
+            announced here and sent to registered participants.
+          </p>
+        </div>
+        <div class="day-grid">
+          <article class="day-card">
+            <div class="day-topline">Workshop day</div>
+            <h3>Friday, December 4</h3>
+            <p class="venue">Université Paris Santé · Paris</p>
+            <ol class="timeline timeline--clock">
+              <li class="is-break">
+                <time>10:00–10:30</time>
+                <span>Registration</span>
+              </li>
+              <li>
+                <time>10:30–10:45</time>
+                <span>Opening remarks</span>
+              </li>
+              <li>
+                <time>10:45–11:30</time>
+                <span>Panel discussion: “The Machine That Agrees With You”</span>
+              </li>
+              <li>
+                <time>11:30–12:30</time>
+                <span>LLM-athon</span>
+              </li>
+              <li>
+                <time>12:30–13:00</time>
+                <span>LLM-athon debrief</span>
+              </li>
+              <li class="is-break">
+                <time>13:00–14:00</time>
+                <span>Lunch</span>
+              </li>
+              <li>
+                <time>14:00–14:30</time>
+                <span>Panel discussion: “What should count as evidence that a health AI is safe?”</span>
+              </li>
+              <li>
+                <time>14:30–15:30</time>
+                <span>HASTC workshop</span>
+              </li>
+              <li>
+                <time>15:30–16:00</time>
+                <span>HASTC debrief</span>
+              </li>
+              <li>
+                <time>16:00–16:15</time>
+                <span>Next steps &amp; group photo</span>
+              </li>
+            </ol>
+          </article>
+          <article class="day-card social-card">
+            <div class="day-topline">How the day is built</div>
+            <h3>Morning on failure, afternoon on oversight</h3>
+            <p>
+              The morning panel and LLM-athon look at where language models break on cases
+              from participants' own settings. The afternoon panel and HASTC workshop ask what
+              should count as evidence that a health AI is safe, and which guardrails a
+              hospital or community can put in place now.
+            </p>
+            <div class="small-note">Hands-on · mixed teams · no coding required</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="workshops" class="section workshops">
+        <div class="section-label">The two workshops</div>
+        <div class="workshop-grid workshop-grid--two">
+          <article>
+            <span class="workshop-time">11:30 · Morning</span>
+            <h3>LLM-athon</h3>
+            <p>
+              A hands-on workshop in which mixed teams of clinicians, students, patients and
+              technologists test large language models on healthcare scenarios drawn from
+              their own setting and language. No coding is required. Teams probe a model with
+              local cases, then try to make it fail, and they record each failure with respect
+              to what triggered it, who would be harmed and how severe the harm would be.
+            </p>
+            <p>
+              The cards from every session are kept as a shared, community-owned record of
+              where these models break, which industry benchmarks rarely capture.
+            </p>
+          </article>
+          <article>
+            <span class="workshop-time">14:30 · Afternoon</span>
+            <h3>HASTC</h3>
+            <p>
+              Health AI Systems Thinking for Community starts from the premise that oversight
+              of health AI belongs to everyone it affects, including people outside regulatory
+              agencies and research labs. Small groups discuss a recent publication or news
+              article to identify what could go wrong once the tool is deployed: unintended
+              consequences, algorithmic bias, privacy risks, and effects on patients who were
+              absent from the training data.
+            </p>
+            <p>
+              Each group then proposes guardrails that a hospital, a community or a
+              professional body could put in place without waiting for government regulation,
+              since the technology changes faster than regulators can follow.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="people" class="section people">
+        <div class="section-label">Faculty &amp; mentors</div>
+        <h2>People shaping the Paris gathering.</h2>
+        <div class="people-grid faculty-grid">
+          <article class="person-card">
+            <img src="assets/leo-anthony-celi.jpg" alt="Leo Anthony Celi">
+            <h3>Leo Anthony Celi</h3>
+            <p>MIT Critical Data · Harvard Medical School</p>
+          </article>
+        </div>
+        <p class="people-note">More faculty and mentors will be announced in the coming days.</p>
+      </section>
+
+      <section id="register" class="section apply">
+        <div class="apply-inner">
+          <div>
+            <div class="section-label">Registration</div>
+            <h2>Join us in Paris on December 4.</h2>
+            <p>
+              Registration runs through a short online form. The exact room at Université
+              Paris Santé will be shared with registered participants and posted on this page.
+            </p>
+          </div>
+          <div class="apply-card">
+            <span>Opening soon</span>
+            <p>
+              The registration form will be linked here shortly.
+            </p>
+            <a class="button primary is-pending" href="#register" aria-disabled="true">
+              <span>Registration form coming soon</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <a class="floating-cta" href="#register" aria-label="Go to registration">
+      <span class="ping"></span>
+      <span>Register</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <path d="M5 12h14"></path>
+        <path d="m12 5 7 7-7 7"></path>
+      </svg>
+    </a>
+
+    <footer class="footer">
+      <p>AI as a Catalyst Paris · December 4, 2026 · Université Paris Santé</p>
+      <a href="#top">Back to top</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
