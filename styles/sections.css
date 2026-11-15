@@ -398,12 +398,6 @@
   margin-top: 14px;
 }
 
-.button.is-pending {
-  cursor: default;
-  opacity: 0.55;
-  pointer-events: none;
-}
-
 .apply {
   padding-bottom: 132px;
 }
