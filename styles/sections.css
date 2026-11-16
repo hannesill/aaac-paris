@@ -358,14 +358,6 @@
   line-height: 1.45;
 }
 
-.people-note {
-  max-width: 560px;
-  margin: 44px 0 0;
-  color: var(--muted);
-  font-size: 15px;
-  line-height: 1.6;
-}
-
 .timeline--clock li {
   grid-template-columns: 112px minmax(0, 1fr);
 }
